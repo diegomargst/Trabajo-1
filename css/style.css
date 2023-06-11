@@ -1,0 +1,213 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    color: azure;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    background-color:rgb(97, 35, 154);
+    padding: 10px;
+}
+.imglogo{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.logo{
+    display: flex;;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav a{
+    font-weight: 600px;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: gold;
+}
+.intro{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.intro p{
+    width: 50%;
+}
+.intro span{
+    font-size: xx-large;
+    color: gold;
+}
+#banner{
+    display: flex;
+    height: 400px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+}
+.imgbanner{
+    display: flex;
+    width: 800px;
+    height: 430px;
+}
+#banner img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+
+}
+#banner img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.lanzamientos{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    background-size: cover;
+    font-weight: 800;
+    font-size: 15px;
+}
+.lanzamientos li{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.lanzamientos ul li{
+    list-style: none;
+}
+
+.consolas{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: larger;
+    color: azure;
+}
+.consolimg{
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.consolas-juegos{
+    width: 33%;
+}
+
+.categorias{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 800;
+    font-size: 15px;
+    align-items: center;
+}
+.categorias ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.listas{
+    width: 50%;
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.ranking{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 800;
+    list-style-position: inside;
+}
+.ranking ol li{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(92, 92, 206);
+    padding: 40px 0;
+    list-style: none;
+}
+.footer-row{
+    display: flex;
+}
+.footer-links{
+    width: 33%;
+    padding: 0 15px;
+}
+.footer-links h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid grey;
+    display:inline-block;
+    padding-bottom: 3px;
+}
+.footer-links li{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+}
+.footer-links li a:hover{
+    color: gold
+}
+.social-links a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all .5s ease;
+}
+.social-links a:hover{
+    background-color: blueviolet;
+}
+
+@media(max-width:900px){
+    header{
+        flex-direction: column;
+        min-width: none;
+    }
+    body{
+        flex-direction: column;
+    }
+   .lanzamientos{
+    flex-direction: column;
+    align-items: center;
+   }
+    .footer-row{
+        text-align: center;
+    }
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

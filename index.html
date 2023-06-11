@@ -5,80 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>GamerBros</title>
 </head>
-<body>
-    <header>
-        <img src="./img/marioluigi4.png" alt="GamerBros">
-        <nav>
+<body style="background-image: url(img/background-gamer.jpeg);"> 
+    <!--Comienza el header-->
+      <header>
+        <a href="#" class="logo"><img src="./img/marioluigiLOGO.png" alt="GamerBros" class="imglogo">
+        <h1 class="titulo">Gamer Bros.</h1>
+        </a>
+            <nav>
             <a href="./empresa.html">Empresa</a>
             <a href="./productos.html">Productos</a>
-            <a href="registro.html">Registro</a>
+            <a href="./registro.html">Registro</a>
             <a href="./micuenta.html">Mi cuenta</a>
             <a href="./contacto.html">Contacto</a>
         </nav>
-
-    </header>
-     <big><h1>Gamer Bros.</h1></big>
-     <div><p><strong><mark>¡Somos GamerBros!</mark></strong> Una tienda digital de videojuegos con todo los titulos que mas te gustan
-        ¡En nuestra web podras encontrar los <em>ultimos lanzamientos</em>, los juegos <em>mas destacados y los mas jugados</em>, <em>ofertas imperdibles</em>
-        y muchas cosas mas! <br> ¡Bienvenido y GG! </div><hr>
-    <div> <nav>
+      </header>
+      <!--Comienza el banner-->
+         <div class="intro"><p> <span>¡Bienvenido a Gamer Bros!</span> <br> Una tienda digital de videojuegos con todo los titulos que mas te gustan
+            ¡En nuestra web podras encontrar los <em>ultimos lanzamientos</em>, los juegos <em>mas destacados y los mas jugados</em>, <em>ofertas imperdibles</em>
+            y muchas cosas mas!</p></div>
+      <section id="banner"> 
+        <div class="imgbanner">
+            <img class="" src="img/ps5logo.jpeg" alt="ps5logo">
+            <img src="img/640px-Nintendo_switch_logo.png" alt="switch logo">
+            <img src="img/xbox.webp" alt="xbox logo">
+        </div>
+        </section>
+    <!--Comienza el nav consolas-->
+    <div class="consolas"> <nav class="navconsola">
         <h3> <a href="#PS5">Playstation 5</a></h3>
         <h3> <a href="#Xbox Series X/S">Xbox Series X/S</a></h3>
         <h3><a href="#Nintendo Switch">Nintendo Switch</a></h3>
-    </nav></div> <hr>
-   
-    </p>
+    </nav></div>
+   <!--Comienzan el apartado Consolas-->
+     <section class="lanzamientos">
+    <div class="consolas-juegos">
+    <h3 id="PS5">PS5</h3> <img class="consolimg" src="./img/PS51-removebg-preview.png" alt="PS5"> <ul>
+        <li><a href="#">God of war: Ragnarok</li></a>
+        <li><a href="#">Hogwarts Legacy</li></a> 
+        <li><a href="#">Street Fighter 6</li></a>
+        <li><a href="#">Ver todos</li></a> </ul>
+     </div> 
+    <div class="consolas-juegos">
+    <h3 id="Xbox Series X/S">Xbox Series X/S</h3> <img class="consolimg" src="./img/xboxseries-removebg-preview.png" alt="Xbox series s"> <ul>
+        <li><a href="#">Lord of the Rings: Gollum</li></a> 
+        <li><a href="#">Diablo IV</li></a> 
+        <li><a href="#">Starfield</li></a> 
+        <li><a href="#">Ver todos</li></a> 
+    </ul></div> 
+    <div class="consolas-juegos">
+    <h3 id="Nintendo Switch">Nintendo Switch</h3><img class="consolimg" src="./img/switch.png" alt="Nintendo switch"> <ul>
+        <li><a href="#">Metroid Prime Remastered</li></a> 
+        <li><a href="#">Digimon World Next order</li></a> 
+        <li><a href="#">The Legend of Zelda: Tears of the Kingdom</li> </a>
+        <li><a href="#">Ver todos</li></a>  </ul>
+     </div> 
+    </section>
+     <!--Comienzan las categorias-->
+    <section class="categorias">
+        <div class="listas"><h2>Ofertas</h2> <ul>
+            <li><a href="#">Pokemon Legends: Arceus</li></a> 
+            <li><a href="#">Resident Evil 4</li></a> 
+            <li><a href="#">Horizon Forbidden West</li></a> 
+            <li><a href="#">Ver todos</li></a> 
+            </ul>
+        </div>
 
-     <div><h2>Nuevos Lanzamientos</h2>
+        <div class="listas"><h2>Los destacados del mes</h2> <ul>
+            <li><a href="#">The Legend of Zelda: Tears of the Kingdom</li></a> 
+            <li><a href="#">Hogwarts Legacy</li></a> 
+            <li><a href="#">Lord of the Rings: Gollum</li></a> 
+            <li><a href="#">Ver todos</li></a> 
+            </ul>
+        </div>
+    </section>
     
-    <h3 id="PS5">PS5</h3> <img src="./img/PS51.png" alt="PS5"> <ol>
-        <li>God of war: Ragnarok</li>
-        <li>Hogwarts Legacy</li>
-        <li>Street Fighter 6</li>
-        <li>Ver todos</li>
-    </ol> 
-    <h3 id="Xbox Series X/S">Xbox Series X/S</h3> <img src="./img/xbox.jpeg" alt="Xbox series s"> <ol>
-        <li>Lord of the Rings: Gollum</li>
-        <li>Diablo IV</li>
-        <li>Starfield</li>
-        <li>Ver todos</li>
-    </ol> 
-    <h3 id="Nintendo Switch">Nintendo Switch</h3><img src="./img/switch.png" alt="Nintendo switch"> <ol> 
-        <li>Metroid Prime Remastered</li>
-        <li>Digimon World Next order</li>
-        <li>The Legend of Zelda: Tears of the Kingdom</li>
-        <li>Ver todos</li>
-    </ol> </div> <hr>
-
-    <div><h2>Ofertas</h2> <ul>
-        <li>Pokemon Legends: Arceus</li>
-        <li>Resident Evil 4</li>
-        <li>Horizon Forbidden West</li>
-        <li>Ver todos</li>
-    </ul></div> <hr>
-
-    <div><h2>Los destacados del mes</h2> <ul>
-        <li>The Legend of Zelda: Tears of the Kingdom</li>
-        <li>Hogwarts Legacy</li>
-        <li>Lord of the Rings: Gollum</li>
-        <li>Ver todos</li>
-    </ul> </div><hr>
-
-    <div><h2>Ranking</h2> <ol>
-        <li>The Legend of Zelda: Tears of the Kingdom</li>
-        <li>Marvel's Spider-Man: Miles Morales Ultimate Edition</li>
-        <li>Fifa 2023</li>
-        <li>Gran Turismo 7</li>
-        <li>Ver ranking</li>
-    </ol></div> <hr>
+    <div class="ranking"><h2>Ranking</h2> <ol>
+        <li><a href="#">The Legend of Zelda: Tears of the Kingdom</li></a>
+        <li><a href="#">Marvel's Spider-Man: Miles Morales Ultimate Edition</li></a> 
+        <li><a href="#">Fifa 2023</li></a> 
+        <li><a href="#">Gran Turismo 7</li></a> 
+        <li><a href="#">Ver ranking</li></a> 
+    </ol></div>
     
 </body>
-<footer>
-    <h4>Seguinos en nuestras redes</h4>
-<li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-<li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-<li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-</footer>
+<!--Aqui el footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer-links">
+                <h4>Empresa</h4>
+                <li><a href="#" target="_blank">Sobre nosotros</li></a>
+                <li><a href="#" target="_blank">Politica de privacidad</li></a>
+                <li><a href="#" target="_blank">Servicios</li></a>
+            </div>
+            <div class="footer-links">
+                <h4>Soporte</h4>
+                <li><a href="#" target="_blank">Ayuda</li></a>
+                <li><a href="#" target="_blank">Pagos</li></a>
+                <li><a href="#" target="_blank">Cambios y devoluciones</li></a>
+            </div>
+            <div class="footer-links">
+                <div class="social-links">
+                    <h4>Seguinos en nuestras redes</h4>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </div>
+            </div>
+        </div>    
+    </div>    
+    </footer>
 </html>
